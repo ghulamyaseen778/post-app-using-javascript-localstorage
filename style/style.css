@@ -1,0 +1,43 @@
+/* #inn{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+     display: none; 
+} */
+body{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#con{
+    width: 415px;
+    height: 315px;
+    background-color: rgb(8, 219, 226);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.pad{
+    margin: 10px;
+    width: 255px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 2px;
+    outline: none;
+    border: 2px solid black;
+}
+.btn{
+    font-size: 20px;
+    padding: 2px;
+    border-radius: 20px;
+    width: 100px;
+    background-color: aquamarine;
+    transition: all 1s ease-in;
+}
+.btn:hover{
+    background-color: rgb(89, 6, 245);
+}
